@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+  background-color: #1e1e1e;
+  color: #f4f4f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-bar input {
+  font-family: 'Lora', serif;
+}
+
+.btns button {
+  font-family: 'Montserrat', sans-serif;
+}
+.ex-cards {
+  font-family: 'Lora', serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
